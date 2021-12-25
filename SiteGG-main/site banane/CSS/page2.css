@@ -1,0 +1,283 @@
+body {
+
+    background-color: #FF6963;
+
+}
+
+header {
+
+    margin-top: 2vh;
+    margin-left: 21vh;
+    margin-right: 21vh;
+    background-color: #FF6963;
+
+}
+   
+h1 {
+
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: underline solid;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+
+}
+
+header .a h5 {
+
+    font-size: 15px;
+
+}
+ 
+ul {
+
+    padding: 5;
+    list-style-type:none;
+    position:absolute; 
+
+}
+
+li {
+    
+    margin-top: 5vh;
+    margin-left: 4vh;
+    float: left;
+
+}
+
+ul li a {
+
+    display:block;
+    float:left;  
+    width: 16vh;
+    background-color: #FF6963;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid;
+    border-color:black;
+    font-family: 'Lora', serif;
+
+}
+
+
+p {
+
+    font-size:15px ;
+    text-indent: 0%;
+    font-family: 'Lora', serif;
+    text-align: left;
+    margin-left: 10vh;
+    
+}
+
+.a {
+
+    border: solid black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+
+}
+
+.pied {
+
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-left: 110vh;
+
+}
+
+.intro {
+
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    margin-left: 10vh;
+    text-indent: 0%;
+    font-family: 'Lora', serif;
+    text-align: left;
+
+}
+
+.photo {
+
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 4vh;
+    margin-left: 3vh;
+    margin-right: 4vh;
+
+}
+
+.droite {
+
+    text-align: left;
+    text-indent: 15px;
+
+}
+
+.mauve {
+
+    margin-top: 6vh;
+    margin-left: 10vh;
+    text-align: left;
+
+}
+
+.container {
+
+    border: solid;  
+    background-color: whitesmoke;
+    width: 80%;
+    
+}
+
+.bonlec {
+
+    margin-bottom: 7vh;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.z {
+
+    margin-bottom: 5vh;
+
+}
+
+.la {
+
+    margin-top: 3.5vh;
+    text-align: left;
+
+}
+
+
+/* MEDIAS */
+
+/* TELEPHONES PETITS A MOYENS */
+
+@media only screen and (max-width : 500px)
+{
+
+
+    header {
+
+        margin-top: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        background-color: #FF6963;
+        
+    }
+
+    header h1 {
+
+        color: black;
+        text-align: center;
+        letter-spacing: 2px;
+        text-decoration: underline solid;
+        font-family: 'Lora', serif;
+    
+    }
+
+    header .a h5 {
+
+        font-size: 15px;
+    
+    }
+
+    .container {
+
+        width: 80%;
+
+    }
+
+    ul {
+        
+        margin-left: -9vh;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    li {
+
+        margin-top: 4vh;
+        margin-left: 1vh;
+        float: none;
+
+    }
+
+    ul li a {
+
+        float: none;  
+        width: auto;
+
+    }
+
+    .intro {
+
+        margin-top: 12vh;
+        margin-bottom: 2vh;
+        margin-left: 2vh;
+        text-indent: 0%;
+        font-family: 'Lora', serif;
+        text-align: left;
+    
+    }
+    
+    p {
+
+        margin-left: 2vh;
+
+    }
+
+    .photo {
+
+        text-align: left;
+        float: right;
+        margin-top: 2vh;
+        margin-left: 5vh;
+        margin-bottom: 5vh;
+
+    }
+    
+    img{
+
+        width: 250px;
+        height: 150px;
+
+    }
+
+    .mauve {
+
+        margin-top: 4vh;
+        margin-left: 2vh;
+        text-align: left;
+    
+    }
+
+    .pied p {
+
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+        margin-left: -90vh;
+        
+    
+    }
+    
+    .bonlec {
+    
+        margin-top: 2vh;
+        font-size: 16px;
+    
+    }
+}
+
+/* TABLETTE PETITES  */

@@ -1,0 +1,278 @@
+body {
+
+    background-color: rgb(255, 204, 94);
+
+}
+
+header {
+
+    margin-top: 2vh;
+    margin-left: 21vh;
+    margin-right: 21vh;
+    background-color: rgb(255, 204, 94);
+    
+}
+   
+h1 {
+
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: underline solid;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+
+}
+
+header .a h5 {
+
+    font-size: 15px;
+
+}
+ 
+.a {
+
+    border: solid black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+
+}
+ 
+ul {
+
+    padding: 5;
+    list-style-type: none;
+    position: absolute; 
+
+}
+li {
+
+    margin-top: 5vh;
+    margin-left: 4vh;
+    float: left;
+
+}
+
+ul li a {
+
+    display: block;
+    float: left;  
+    width: 16vh;
+    background-color:rgb(255, 204, 94);
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid;
+    border-color:black;
+    font-family: 'Lora', serif;
+
+}
+
+p {
+
+    font-size:15px ;
+    text-indent: 0%;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    margin-left: 10vh;
+
+}
+
+.pied {
+
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    margin-right: 100vh;
+
+}
+
+.intro {
+
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    margin-left: 10vh;
+    text-indent: 0%;
+    font-family: 'Lora', serif;
+    text-align: left;
+
+}
+
+.droite {
+
+    text-align: left;
+    text-indent: 1vh;
+    margin-top: 2.5vh;
+    margin-left: 3vh;
+
+}
+
+.gauche {
+
+    text-align: left;
+    margin-top: 5vh;
+
+}
+
+.photo {
+
+    float: left;
+    margin-top: 2vh;
+    margin-left: 7vh;
+
+}
+
+.photo2{
+
+    float:right;
+    margin-right: 13vh;
+    margin-top: 4vh;
+
+}
+
+.fin {
+
+    margin-bottom: 10vh;
+    margin-top: 1vh;
+
+}
+
+.dodo {
+
+    margin-top: 2vh;
+    
+}
+
+.dodo1 {
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+.container {
+
+    border: solid;
+    background-color: whitesmoke;
+    width: 80%;
+
+}
+    
+
+/* MEDIAS */
+
+/* TELEPHONES PETITS A MOYENS */
+
+@media only screen and (max-width : 500px){
+
+
+    header {
+
+        margin-top: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        background-color: rgb(255, 204, 94);
+        
+    }
+
+    header h1 {
+
+        color: black;
+        text-align: center;
+        letter-spacing: 2px;
+        text-decoration: underline solid;
+        font-family: 'Lora', serif;
+    
+    }
+
+    header .a h5 {
+
+        font-size: 15px;
+    
+    }
+
+    ul {
+        
+        margin-left: -8.5vh;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    li {
+
+        margin-top: 4vh;
+        margin-left: 1vh;
+        float: none;
+
+    }
+
+    ul li a {
+
+        float: none;  
+        width: auto;
+
+    }
+
+    .intro {
+
+        margin-top: 12vh;
+        margin-bottom: 2vh;
+        margin-left: 2vh;
+        text-indent: 0%;
+        font-family: 'Lora', serif;
+        text-align: left;
+    
+    }
+    
+    p {
+
+        margin-left: 2vh;
+
+    }
+
+    .photo {
+
+        text-align: left;
+        margin-top: 5vh;
+        margin-left: 3vh;
+        margin-right: 2vh;
+        margin-bottom: 5vh;
+
+    }
+    
+    img {
+
+        width: 250px;
+        height: 100px;
+
+    }
+
+    .photo2 {
+
+        text-align: left;
+        margin-top: 5vh;
+        margin-left: 3vh;
+        margin-right: 2vh;
+        margin-bottom: 5vh;
+
+    }
+
+    .pied {
+
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+    
+    }
+    
+    .bonlec {
+    
+        margin-top: 5vh;
+        font-size: 16px;
+        text-align: left;
+    
+    }
+}

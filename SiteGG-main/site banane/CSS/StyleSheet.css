@@ -1,0 +1,233 @@
+body {
+
+    background-color: rgb(255, 194, 255);
+
+}
+
+header {
+
+    margin-top: 2vh;
+    margin-left: 21vh;
+    margin-right: 21vh;
+    background-color: rgb(255, 194, 255);
+    
+}
+   
+h1 {
+
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: underline solid;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+
+}
+
+header .a h5 {
+
+    font-size: 15px;
+
+}
+ 
+.a {
+
+    border: solid black;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.b {
+
+    text-align: left;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    margin-bottom: 5vh;
+    
+}
+ 
+ul {
+
+    padding: 5;
+    list-style-type:none;
+    position:absolute; 
+
+}
+
+li {
+
+    margin-top: 5vh;
+    margin-left: 4vh;
+    float: left;
+
+}
+
+ul li a {
+
+    display:block;
+    float:left;  
+    width: 16vh;
+    background-color:rgb(255, 194, 255);
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid;
+    border-color:black;
+    font-family: 'Lora', serif;
+
+}
+
+.intro {
+
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    margin-left: 10vh;
+    text-indent: 0%;
+    font-family: 'Lora', serif;
+    text-align: left;
+
+}
+
+p {
+
+    text-align: left;
+    font-size:15px ;
+    text-indent: 0%;
+    font-family: 'Lora', serif;
+    margin-left: 10vh;
+
+}
+
+.pied {
+
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+
+}
+
+.bonlec {
+
+    margin-top: 5vh;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.container {
+
+    border: solid;
+    background-color: whitesmoke;
+    width: 80%;
+    
+}
+
+
+
+/* MEDIAS */
+
+/* TELEPHONES PETITS A MOYENS */
+
+@media only screen and (max-width : 500px){
+
+
+    header {
+
+        margin-top: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        background-color: rgb(255, 194, 255);
+        
+    }
+
+    header h1 {
+
+        color: black;
+        text-align: center;
+        letter-spacing: 2px;
+        text-decoration: underline solid;
+        font-family: 'Lora', serif;
+    
+    }
+
+    header .a h5 {
+
+        font-size: 15px;
+    
+    }
+
+    ul {
+        
+        margin-left: -10vh;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    li {
+
+        margin-top: 4vh;
+        margin-left: 1vh;
+        float: none;
+
+    }
+
+    ul li a {
+
+        float: none;  
+        width: auto;
+
+    }
+
+    .intro {
+
+        margin-top: 12vh;
+        margin-bottom: 2vh;
+        margin-left: 2vh;
+        text-indent: 0%;
+        font-family: 'Lora', serif;
+        text-align: left;
+    
+    }
+    
+    p {
+
+        margin-left: 2vh;
+
+    }
+
+    .b {
+
+        text-align: left;
+        margin-top: 5vh;
+        margin-left: 5vh;
+        margin-bottom: 5vh;
+
+    }
+    
+    img{
+
+        width: 250px;
+        height: 150px;
+
+    }
+
+    .pied {
+
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+    
+    }
+    
+    .bonlec {
+    
+        margin-top: 5vh;
+        font-size: 16px;
+        text-align: left;
+    
+    }
+
+}
